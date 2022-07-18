@@ -17,3 +17,56 @@ html {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pale-blue);
+    width: 100vw;
+    height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 500px;
+    background-color: var(--very-pale-blue);
+    border-radius: 1em;
+}
+
+.card__header{
+    border: 3px solid black;
+    border-radius: 1em 1em 0 0;
+    flex: 1;
+}
+
+.card__content{
+    border: 3px solid black;
+    border-radius: 0 0 1em 1em;
+    flex: 3;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card__content__header{
+    border: 1px solid red;
+    flex: 1;
+}
+
+.card__content__description{
+    border: 1px solid red;
+    flex: 1;
+}
+
+.card__content__plan{
+    border: 1px solid red;
+    flex: 1;
+}
+
+.card__content__buttons{
+    border: 1px solid red;
+    flex: 1;
+}
