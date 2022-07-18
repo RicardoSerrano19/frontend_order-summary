@@ -47,7 +47,6 @@ body{
 }
 
 .card__content{
-    border: 3px solid black;
     border-radius: 0 0 1em 1em;
     flex: 3 3;
 
@@ -56,8 +55,15 @@ body{
 }
 
 .card__content__header{
-    border: 1px solid red;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__content__header h1{
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .card__content__description{
