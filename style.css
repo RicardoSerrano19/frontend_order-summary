@@ -140,6 +140,7 @@ body{
 
 .card__content__buttons__continue{
     border: none;
+    background: none;
     padding: 1em 0;
     border-radius: 0.5em;
     color: var(--desaturated-blue);
