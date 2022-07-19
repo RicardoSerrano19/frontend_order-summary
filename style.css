@@ -52,7 +52,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    padding: 0 3em;
+    padding: 0 2em;
 }
 
 .card__content__header{
@@ -65,7 +65,8 @@ body{
 .card__content__header h1{
     font-weight: 900;
     font-size: 24px;
-    color: var(--dark-blue)
+    color: var(--dark-blue);
+    margin: 1em 0;
 }
 
 .card__content__description{
@@ -79,6 +80,7 @@ body{
 .card__content__description p{
     text-align: center;
     line-height: 1.5em;
+    word-spacing: 0.1em;
 }
 
 .card__content__plan{
@@ -91,6 +93,8 @@ body{
 
     background-color: hsl(225, 100%, 96%);
     border-radius: 1em;
+    margin: 1.5em 0;
+
 }
 
 .card__content__plan__type{
@@ -126,7 +130,7 @@ body{
 .card__content__buttons__proceed{
     background-color: var(--bright-blue);
     border: none;
-    padding: 0.8em 0;
+    padding: 1em 0;
     border-radius: 0.5em;
     margin-bottom: 0.5em;
     color: var(--very-pale-blue);
@@ -136,7 +140,7 @@ body{
 
 .card__content__buttons__continue{
     border: none;
-    padding: 0.8em 0;
+    padding: 1em 0;
     border-radius: 0.5em;
     color: var(--desaturated-blue);
     font-weight: 900;
