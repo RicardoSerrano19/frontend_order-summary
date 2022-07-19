@@ -138,6 +138,12 @@ body{
     cursor: pointer;
 }
 
+.card__content__buttons__proceed:hover, 
+.card__content__buttons__continue:hover,
+.card__content__plan__options span:hover{
+    opacity: 0.8;
+}
+
 .card__content__buttons__continue{
     border: none;
     background: none;
